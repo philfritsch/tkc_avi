@@ -14,7 +14,7 @@ spec:
           name: v1.22.9---vmware.1-tkg.1.cc71bc8
     nodePools:
     - name: worker
-      replicas: 3
+      replicas: 2
       vmClass: best-effort-small
       storageClass: tanzu-k8s-tagged-policy
       tkr:  
